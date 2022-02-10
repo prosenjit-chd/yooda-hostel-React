@@ -1,0 +1,82 @@
+.register-btn{
+    background-color: #3F90FC;
+    color: white !important;
+    border: none;
+    font-weight: 400;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 130px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+.admin-btn{
+    background-color: #434141;
+    color: white !important;
+    border: none;
+    font-weight: 400;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 130px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Navbar */
+.nav-custom {
+    padding: 15px 0;
+}
+.nav-avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.profile{
+    position: relative;
+}
+.profile:hover .profile-shortcut{
+    visibility: visible;
+}
+.nav-bell-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #f5f4f8;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.vr{
+    background-color: lime;
+    border: 1px solid white;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px;
+    right: 3px;
+}
+.profile-shortcut{
+    position: absolute;
+    width: 220px;  
+    border-radius: 7px;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 0px 20px -10px grey;
+    padding: 10px 20px;
+    visibility: hidden;
+}
+
+.profile-shortcut li{
+    list-style: none;
+    font-size: 15px;
+    line-height: 30px;
+}
+.profile-shortcut i{
+    margin-right: 10px;
+}
